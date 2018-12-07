@@ -1,24 +1,5 @@
 <?php 
 
-
-//$a5 = $_POST['4'];
-//$a6 = $_POST['5'];
-//$a7 = $_POST['6'];
-//$a8 = $_POST['7'];
-//$a9 = $_POST['8'];
-//$a10 = $_POST['9'];
-
-
-
-
-
-//if ($a5 == 0){$score++;}    
-//if ($a6 == 0){$score++;}    
-//if ($a6 == 0){$score++;}   
-//if ($a7 == 0){$score++;}
-//if ($a8 == 0){$score++;}
-//if ($a9 == 0){$score++;}
-//if ($a10 == 0){$score++;}
     
     
 ?>
@@ -48,8 +29,7 @@
                 ?>                
             </p>
             <p>The correct answers are in green.  Incorrect answers are in red.  Retake the practice exam by selecting the button below.</p>
-            <form action="." method="post">
-                <input type="hidden" name="action" value="redo">
+
                 <?php   $answerSet = array();
                         for ($i = 0; $i < count($indexTracker); $i++) : ?><br>
                 <?php   echo "Question " . ($i + 1) . ")  ";
@@ -65,6 +45,8 @@
                 <?php   endforeach;
                         $answerSet = array();
                         endfor; ?>
+            <form action="." method="post">
+                <input type="hidden" name="action" value="redo">        
                 <div id="submit">
                     <label>&nbsp;</label>
                     <input type="submit" value="Take Another Quiz">

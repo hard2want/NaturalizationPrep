@@ -94,13 +94,6 @@ switch($action){
         break;
 } // end switch
 
-
-
-
-//$score = 0;
-
-
-
 ?>
 
 
