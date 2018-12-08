@@ -1,6 +1,6 @@
 <?php 
 
-    
+global $allQuestions;
     
 ?>
 
@@ -75,6 +75,8 @@
                 </div>
             </form>
         </main>
+                <?php print_r($indexTracker);?>
+                <?php print_r($allQuestions);?>        
         <footer>
             <p>
                 <?php   date_default_timezone_set('America/Chicago');

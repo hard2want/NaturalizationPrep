@@ -14,6 +14,7 @@
             <form action="." method="POST">
                 <input type="hidden" name="action" value="grade">
                 <input type="hidden" name="iT" value="<?php echo implode(" ", $indexTracker); ?>">
+
                 <?php   $answerSet = array();
                         for ($i = 0; $i < count($indexTracker); $i++) : ?><br>
                 <?php   echo "Question " . ($i + 1) . ")  ";
@@ -37,5 +38,7 @@
                 </div>
             </form>
         </main>
+        <?php print_r($indexTracker);?>
+        <?php print_r($allQuestions);?>
     </body>
 </html>
