@@ -1,3 +1,7 @@
 .answer0{
     color: green;
 }
+
+.wrong {
+    color: red;
+}

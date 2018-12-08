@@ -85,6 +85,7 @@ switch($action){
         if ($a3 == 0){$score++;}
         if ($a4 == 0){$score++;}
 
+        $aSet = array($a1, $a2, $a3, $a4);
         include('score_view.php');        
         break;        
     case 'redo':
