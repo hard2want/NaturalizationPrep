@@ -1,7 +1,8 @@
 <?php
 
-// -------------- questions and answers
-// questions and answers for American Government / Principles of American Democracy (12 questions)
+// -------------- questions and answers to create the user requested test bank
+
+// questions for American Government: Principles of American Democracy (12 questions)
 $catAGpoadQ = array();
 $catAGpoadQ[0] = 'What is the supreme law of the land?';
 $catAGpoadQ[1] = 'What does the Constitution do?';
@@ -16,11 +17,12 @@ $catAGpoadQ[9] = 'What is freedom of religion?';
 $catAGpoadQ[10] = 'What is the economic system in the United States';
 $catAGpoadQ[11] = 'What is the "rule of law"?';
 
+// correct answers for American Government: Principles of American Democracy (12 questions)
 $catAGpoadC = array();
 $catAGpoadC[0] = array('The Constitution');
 $catAGpoadC[1] = array('All of the above');
 $catAGpoadC[2] = array('We the people');
-$catAGpoadC[3] = array('A change to the Constitution'); // , 'an addition (to the Constitution)'
+$catAGpoadC[3] = array('A change to the Constitution');
 $catAGpoadC[4] = array('The Bill of Rights');
 $catAGpoadC[5] = array('All of the above');
 $catAGpoadC[6] = array('27');
@@ -30,7 +32,7 @@ $catAGpoadC[9] = array('You can practice any religion, or not practice a religio
 $catAGpoadC[10] = array('Capitalist (or market) economy');
 $catAGpoadC[11] = array('Everyone must follow the law');
 
-
+// incorrect answers for American Government: Principles of American Democracy (12 questions)
 $catAGpoadI = array();
 $catAGpoadI[0] = array('The Bill of Rights', 'The Declaration of Independence', 'The Ten Commandments');
 $catAGpoadI[1] = array('Sets up the government', 'Defines the government', 'Protects basic rights of Americans');
@@ -46,10 +48,7 @@ $catAGpoadI[10] = array('The U.S. Dollar', 'Welfare', 'Social Security');
 $catAGpoadI[11] = array('The Constitution', 'You must serve two years in the military', 'You must register with local law enforcement');
 
 
-
-$catAGpoadA = array($catAGpoadC, $catAGpoadI);
-
-// questions and answers for American Government / System of Government
+// questions for American Government: System of Government
 $catAGsogQ = array();
 $catAGsogQ[0] = 'Name one branch or part of the government';
 $catAGsogQ[1] = 'What stops one branch of government from becoming too powerful?';
@@ -87,6 +86,7 @@ $catAGsogQ[32] = 'What are the two major political parties in the United States?
 $catAGsogQ[33] = 'What is the political party of the President now?';
 $catAGsogQ[34] = 'What is the name of the Speaker of the House of Representatives now?';
 
+// correct answers for American Government: System of Government
 $catAGsogC = array();
 $catAGsogC[0] = array('Congress');
 $catAGsogC[1] = array('Separation of powers');
@@ -124,6 +124,7 @@ $catAGsogC[32] = array('Democratic and Republican');
 $catAGsogC[33] = array('Republican');
 $catAGsogC[34] = array('Paul D. Ryan');
 
+// incorrect answers for American Government: System of Government
 $catAGsogI = array();
 $catAGsogI[0] = array('Parliment', 'House of Lords', 'Grand Jury');
 $catAGsogI[1] = array('Term limits', 'Labor laws', 'The Supreme Court');
@@ -161,7 +162,7 @@ $catAGsogI[32] = array('Tories and Whigs', 'Labour and Green', 'Workers Party an
 $catAGsogI[33] = array('Communist', 'Banana Town', 'Benedict Arnold');
 $catAGsogI[34] = array('Paul E. Shore', 'Paul A. Dean', 'Paul B. Onion');
 
-// questions and answers for American Government / Rights and Responsibilities
+// questions for American Government: Rights and Responsibilities
 $catAGrarQ = array();
 $catAGrarQ[0] = 'There are four amendments to the Constitution about who can vote.  Describe one of them.';
 $catAGrarQ[1] = 'What is one responsibility that is only for United States citizens?';
@@ -174,6 +175,7 @@ $catAGrarQ[7] = 'What are two ways that Americans can participate in their democ
 $catAGrarQ[8] = 'When is the last day you can send in federal income tax forms?';
 $catAGrarQ[9] = 'When must all men register for the Selective Service?';
 
+// correct answers for American Government: Rights and Responsibilities
 $catAGrarC = array();
 $catAGrarC[0] = array('Any citizen can vote if they are over 18 years old');
 $catAGrarC[1] = array('Serve on a jury');
@@ -186,6 +188,7 @@ $catAGrarC[7] = array('Vote and run for office');
 $catAGrarC[8] = array('April 15');
 $catAGrarC[9] = array('18');
 
+// incorrect answers for American Government: Rights and Responsibilities
 $catAGrarI = array();
 $catAGrarI[0] = array('Any man over 18 years old and any woman over 21 years old', 'Only citizens born in the United States can vote', 'Any citizen can vote if they are over 21 years old');
 $catAGrarI[1] = array('Serve on an election committee', 'Serve in the military', 'Serve the court');
@@ -198,7 +201,7 @@ $catAGrarI[7] = array('Demonstrate peacefully and pay taxes', 'Celebrate July 4t
 $catAGrarI[8] = array('October 31', 'March 17', 'July 4');
 $catAGrarI[9] = array('16', '30', '15');
 
-// questions and answers for American History / Colonial Period and Independence
+// questions for American History: Colonial Period and Independence
 $catAHcpaiQ = array();
 $catAHcpaiQ[0] = 'What is one reason colonists came to America?';
 $catAHcpaiQ[1] = 'Who lived in America before the Europeans arrived?';
@@ -214,6 +217,7 @@ $catAHcpaiQ[10] = 'What is one thing Benjamin Franklin is famous for?';
 $catAHcpaiQ[11] = 'Who is the "Father of Our Country"?';
 $catAHcpaiQ[12] = 'Who was the first President?';
 
+// correct answers for American History: Colonial Period and Independence
 $catAHcpaiC = array();
 $catAHcpaiC[0] = array('All of the above');
 $catAHcpaiC[1] = array('Native Americans');
@@ -229,6 +233,7 @@ $catAHcpaiC[10] = array('All of the above');
 $catAHcpaiC[11] = array('George Washington');
 $catAHcpaiC[12] = array('George Washington');
 
+// incorrect answers for American History: Colonial Period and Independence
 $catAHcpaiI = array();
 $catAHcpaiI[0] = array('Escape persecution', 'Political liberty', 'Economic opportunity');
 $catAHcpaiI[1] = array('African Americans', 'Anglo Americans', 'South Americans');
@@ -244,7 +249,7 @@ $catAHcpaiI[10] = array('First Postmaster General of the United States', 'U.S. d
 $catAHcpaiI[11] = array('Thomas Jefferson', 'Alexander Hamilton', 'Benjamin Franklin');
 $catAHcpaiI[12] = array('Thomas Jefferson', 'Alexander Hamilton', 'Benjamin Franklin');
 
-// questions and answers for American History / 1800's
+// questions for American History: 1800's
 $catAH1800sQ = array();
 $catAH1800sQ[0] = 'What territory did the United States buy from France in 1803?';
 $catAH1800sQ[1] = 'Name one war fought by the United States in the 1800\'s.';
@@ -254,6 +259,7 @@ $catAH1800sQ[4] = 'What was one important thing that Abraham Lincoln did?';
 $catAH1800sQ[5] = 'What did the Emancipation Proclamation do?';
 $catAH1800sQ[6] = 'What did Susan B. Anthony do?';
 
+// correct answers for American History: 1800's
 $catAH1800sC = array();
 $catAH1800sC[0] = array('Louisiana');
 $catAH1800sC[1] = array('All of the above');
@@ -263,6 +269,7 @@ $catAH1800sC[4] = array('All of the above');
 $catAH1800sC[5] = array('Freed the slaves');
 $catAH1800sC[6] = array('Fought for women\'s rights');
 
+// incorrect answers for American History: 1800's
 $catAH1800sI = array();
 $catAH1800sI[0] = array('Virginia', 'Dakaota', 'Alaska');
 $catAH1800sI[1] = array('War of 1812', 'Mexican-American War', 'Spanish-American War');
@@ -272,7 +279,7 @@ $catAH1800sI[4] = array('Freed the slaves', 'Preserved the Union', 'Led the Unit
 $catAH1800sI[5] = array('Eliminated Jim Crow laws', 'Allowed former slaves the right to vote', 'Settled state\'s rights');
 $catAH1800sI[6] = array('Created the American flag', 'Started the Underground Railroad', 'Founded the Democratic party');
 
-// questions and answers for American History / Recent American History and Other Important Historical Information
+// questions for American History: Recent American History and Other Important Historical Information
 $catAHrahQ = array();
 $catAHrahQ[0] = 'Name one war fought by the United States in the 1900s.';
 $catAHrahQ[1] = 'Who was President during World War I?';
@@ -285,6 +292,7 @@ $catAHrahQ[7] = 'What did Martin Luther King, Jr. do?';
 $catAHrahQ[8] = 'What major event happened on September 11, 2001, in the United States?';
 $catAHrahQ[9] = 'Name one American Indian tribe in the United States.';
 
+// correct answers for American History: Recent American History and Other Important Historical Information
 $catAHrahC = array();
 $catAHrahC[0] = array('All of the above');
 $catAHrahC[1] = array('Woodrow Wilson');
@@ -297,6 +305,7 @@ $catAHrahC[7] = array('fought for civil rights');
 $catAHrahC[8] = array('Terrorists attacked the United States');
 $catAHrahC[9] = array('All of the above');
 
+// incorrect answers for American History: Recent American History and Other Important Historical Information
 $catAHrahI = array();
 $catAHrahI[0] = array('World War I', 'Korean War', 'Vietnam War');
 $catAHrahI[1] = array('Franklin Roosevelt', 'Theodore Roosevelt', 'Abraham Lincoln');
@@ -309,7 +318,7 @@ $catAHrahI[7] = array('first African-American Supreme Court Justice', 'first Afr
 $catAHrahI[8] = array('The Space Shuttle was lost after launch', 'The stock market crashed causing a global recession', 'Former President Ronald Reagan died');
 $catAHrahI[9] = array('Cherokee', 'Navajo', 'Sioux');
 
-// questions and answers for Integrated Civics / Geography
+// questions for Integrated Civics: Geography
 $catICgeoQ = array();
 $catICgeoQ[0] = 'Name one of the two longest rivers in the United States.';
 $catICgeoQ[1] = 'What ocean is on the West Coast of the United States?';
@@ -320,6 +329,7 @@ $catICgeoQ[5] = 'Name one state that borders Mexico.';
 $catICgeoQ[6] = 'What is the capital of the United States?';
 $catICgeoQ[7] = 'Where is the Statue of Liberty?';
 
+// correct answers for Integrated Civics: Geography
 $catICgeoC = array();
 $catICgeoC[0] = array('Mississippi River');
 $catICgeoC[1] = array('Pacific');
@@ -330,6 +340,7 @@ $catICgeoC[5] = array('All of the above');
 $catICgeoC[6] = array('Washington, D.C.');
 $catICgeoC[7] = array('New York Harbor');
 
+// incorrect answers for Integrated Civics: Geography
 $catICgeoI = array();
 $catICgeoI[0] = array('Colorado River', 'Columbia River', 'The Rio Grande');
 $catICgeoI[1] = array('Atlantic', 'Caribbean', 'Pan-Asian');
@@ -340,57 +351,60 @@ $catICgeoI[5] = array('California', 'Arizona', 'New Mexico');
 $catICgeoI[6] = array('New York, NY', 'Philadelphia, PA', 'Boston, MA');
 $catICgeoI[7] = array('Long Island Sound', 'Cape Cod', 'Atlantic Ocean');
 
-// questions and answers for Integrated Civics / Symbols
+// questions for Integrated Civics: Symbols
 $catICsymQ = array();
 $catICsymQ[0] = 'Why does the flag have 13 stripes?';
 $catICsymQ[1] = 'Why does the flag have 50 stars?';
 $catICsymQ[2] = 'What is the name of the national anthem?';
 
+// correct answers for Integrated Civics: Symbols
 $catICsymC = array();
 $catICsymC[0] = array('There were 13 colonies');
 $catICsymC[1] = array('There is one star for each state');
 $catICsymC[2] = array('The Star-Spangled Banner');
 
+// incorrect answers for Integrated Civics: Symbols
 $catICsymI = array();
 $catICsymI[0] = array('There were 13 signers of the Declaration of Independence', 'The Constitution was drafted 13 years after the Declaration of Independence', 'The Revolutionary War lasted 13 years');
 $catICsymI[1] = array('There were 50 signers of the Declaration of Independence', 'The first U.S. Congress had 50 members', 'President Washington died at 50 years old');
 $catICsymI[2] = array('America the Beautiful', 'God Bless America', 'The Pledge of Allegiance');
 
-// questions and answers for Integrated Civics / Holidays
+// questions for Integrated Civics: Holidays
 $catICholQ = array();
 $catICholQ[0] = 'When do we celebrate Independence Day?';
 $catICholQ[1] = 'Name two national U.S. holidays.';
 
+// correct answers for Integrated Civics: Holidays
 $catICholC = array();
 $catICholC[0] = array('July 4');
 $catICholC[1] = array('All of the above');
 
+// incorrect answers for Integrated Civics: Holidays
 $catICholI = array();
 $catICholI[0] = array('September 11', 'April 15', 'March 17');
 $catICholI[1] = array('Martin Luther King, Jr. Day', 'Veterans Day', 'Labor Day');
 
 // --------- category arrays to hold questions and answers
-$catAG = array(); // categories of the American Government topic
-$catAG['poad'] = array($catAGpoadQ, $catAGpoadA); // Principles of American Democracy
-$catAG['sog'] = array(); // System of Government
-$catAG['rar'] = array(); // Rights and Responsibilities
+$catAG = array();                                                               // categories of the American Government topic
+$catAG['poad'] = array();                                                       // Principles of American Democracy
+$catAG['sog'] = array();                                                        // System of Government
+$catAG['rar'] = array();                                                        // Rights and Responsibilities
 
-$catAH = array(); // categories of the American History topic
-$catAH['cpai'] = array(); // Colonial Period and Independence
-$catAH['1800s'] = array(); // 1800's
-$catAH['rah'] = array(); // Recent American History and Other Important Historical Information
+$catAH = array();                                                               // categories of the American History topic
+$catAH['cpai'] = array();                                                       // Colonial Period and Independence
+$catAH['1800s'] = array();                                                      // 1800's
+$catAH['rah'] = array();                                                        // Recent American History and Other Important Historical Information
 
-$catIC = array(); // categories of Integrated Civics topic
-$catIC['geo'] = array(); // Geography
-$catIC['sym'] = array(); // Symbols
-$catIC['hol'] = array(); // Holidays
+$catIC = array();                                                               // categories of Integrated Civics topic
+$catIC['geo'] = array();                                                        // Geography
+$catIC['sym'] = array();                                                        // Symbols
+$catIC['hol'] = array();                                                        // Holidays
 
 // --------------- arrays for each topic to hold the categories
-// create an array for each topic
-$topic = array();
-$topic['AG'] = $catAG; // American Government
-$topic['AH'] = $catAH; // American History
-$topic['IC'] = $catIC; // Integrated Civics
+$topic = array();                                                               // create an array for each topic
+$topic['AG'] = $catAG;                                                          // American Government
+$topic['AH'] = $catAH;                                                          // American History
+$topic['IC'] = $catIC;                                                          // Integrated Civics
 
 ?>
 
