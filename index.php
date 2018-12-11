@@ -5,7 +5,7 @@
 
 $action = filter_input(INPUT_POST, 'action');
 
-$all = isset($_POST['all']);
+//$all = isset($_POST['all']);
 
 if ($action === NULL){
     include('setup.php');
@@ -115,7 +115,7 @@ function allQ(){
 
 function indexTracker($num){
     $indexTracker = array();
-    while (count($indexTracker) < 4){
+    while (count($indexTracker) < 10){
         $randomNumber = random_int(0, $num-1);
         array_push($indexTracker, $randomNumber);
         $indexTracker = array_unique($indexTracker);
@@ -128,9 +128,11 @@ function indexTracker($num){
 switch($action){
 
     case 'start':
-        if ($all){
-            allQ();
-        }
+//        if ($all){
+//            allQ();
+//        }
+        
+        allQ();
         $indexTracker = indexTracker(count($allQuestions));
         
         include('quiz_view.php');
@@ -140,25 +142,37 @@ switch($action){
         $iT = $_POST['iT'];
         $indexTracker = array();
         $indexTracker = explode(" ", $iT);
-        
-        allQ();                  
+        allQ();
+
 
         // capture user submissions
         $a1 = $_POST['0'];
         $a2 = $_POST['1'];
         $a3 = $_POST['2'];
         $a4 = $_POST['3'];
+        $a5 = $_POST['4'];
+        $a6 = $_POST['5'];
+        $a7 = $_POST['6'];
+        $a8 = $_POST['7'];
+        $a9 = $_POST['8'];
+        $a10 = $_POST['9'];
         
         if ($a1 == 0){$score++;}
         if ($a2 == 0){$score++;}
         if ($a3 == 0){$score++;}
         if ($a4 == 0){$score++;}
-
-        $aSet = array($a1, $a2, $a3, $a4);
+        if ($a5 == 0){$score++;}
+        if ($a6 == 0){$score++;}        
+        if ($a7 == 0){$score++;}        
+        if ($a8 == 0){$score++;}       
+        if ($a9 == 0){$score++;}        
+        if ($a10 == 0){$score++;}        
+        
+        $aSet = array($a1, $a2, $a3, $a4, $a5, $a6, $a7, $a8, $a9, $a10);
         include('score_view.php');        
         break;        
     case 'redo':
-        include('index.html');
+        include('setup.php');
         break;
 } // end switch
 

@@ -11,20 +11,17 @@ and open the template in the editor.
     </head>
     <body>
         <header>
+            <img src="images/USCIS400x120.png" alt="U.S. Imigration Services Logo" width="400" height="120">
             <h1>Naturalization Practice Test</h1>
         </header>
-        <main>
+        <main id="landing">
             <p>Welcome to the U.S. Naturalization Practice Test</p>
             <p>Select start practice quiz to receive ten randomly generated questions</p>
             <p>You must answer six of the ten questions correct to pass the exam</p>
 
             <form action="index.php" method="post">
                 <input type="hidden" name="action" value="start">
-                <input type="checkbox" name="all" checked> Select practice quiz from all questions<br>
-                <div>
-                    <label>&nbsp;</label>
-                    <input type="submit" value="Start Quiz">
-                </div>                
+                <input type="submit" value="Start Quiz" id="button">
             </form>
         </main>
     </body>
