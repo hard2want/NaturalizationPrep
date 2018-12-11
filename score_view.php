@@ -16,8 +16,7 @@
                 <p><?php   $percent = $score*10;                                                                                                    // calculate percent
                             $improve = 6 - $score;                                                                                                  // calculate questions needed to pass
                             if ($score/10 >= 0.6){ echo "You PASSED the practice exam with a score of $percent%";}                                  // passing message
-                            else {echo "Keep practicing.  You scored $percent% and needed $improve more correct answers to pass."; ?></p>           <!-- try again message -->
-                    <?php   } ?>
+                            else {echo "Keep practicing.  You scored $percent% and needed $improve more correct answers to pass."; } ?></p>           <!-- try again message -->
                 <p><span class="answer0">The correct answers are in green.</span><span class="wrong">  Incorrect answers are in red.</span></p>
                 <p>You may take another practice exam by selecting the "Take Another Quiz" button below.</p><br> 
             </div>
@@ -64,7 +63,7 @@
                 </div>
             </div>
             <form action="." method="post">
-                <input type="hidden" name="action" value="redo">
+                <input type="hidden" name="action" value="redo">                                                                                    <!-- send redo to index.php switch -->
                 <input type="submit" value="Take Another Quiz"  id="button">                                                                        <!-- enable user to take another exam -->
             </form>
         </main>
