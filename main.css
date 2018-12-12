@@ -32,7 +32,7 @@ h1 {
     text-align: center;
 }
 .answer0{
-    color: green;
+    color: #4CAF50; /* Green */
 }
 
 .wrong {
